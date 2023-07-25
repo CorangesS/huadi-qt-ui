@@ -1,0 +1,23 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 4
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 8
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 3
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/include/c++/4.8.3 \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/include/c++/4.8.3/arm-none-linux-gnueabi \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/include/c++/4.8.3/backward \
+    /usr/local/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include \
+    /usr/local/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3/include-fixed \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/include \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /usr/local/arm-2014.05/lib/gcc/arm-none-linux-gnueabi/4.8.3 \
+    /usr/local/arm-2014.05/lib/gcc \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/lib \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/libc/lib \
+    /usr/local/arm-2014.05/arm-none-linux-gnueabi/libc/usr/lib
